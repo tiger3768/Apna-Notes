@@ -8,6 +8,13 @@ Hub for sharing notes and files
 3. Leaderboard(uses upvotes for comparison)
 4. Search functionality and pagination
 
+## Tech Stack
+
+1. BackEnd: Spring Boot
+2. FrontEnd: React.js
+3. Database: MySQL Docker container
+4. File Database: Firebase
+
 ## Screenshots
 
 **1. Home Screen**
