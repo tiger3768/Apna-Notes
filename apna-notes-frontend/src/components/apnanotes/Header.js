@@ -20,6 +20,9 @@ export default function Header(){
                                 <li className="nav-item fs-5 ">
                                     {isAuthenticated && <Link className="nav-link" to="/leaderboard">Leaderboard</Link>}
                                 </li>
+                                <li className="nav-item fs-5 ">
+                                    {isAuthenticated && <Link className="nav-link" to={`/${username}/upload`}>Upload</Link>}
+                                </li>
                             </ul>
                         </div>
                         <ul className="navbar-nav bg-info">

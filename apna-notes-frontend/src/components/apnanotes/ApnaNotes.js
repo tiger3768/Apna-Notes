@@ -11,6 +11,9 @@ import Home from "./Home";
 import Profile from "./Profile";
 import ModifyNotes from "./ModifyNotes";
 import Leaderboard from "./Leaderboard";
+import Verification from "./Verification";
+import ResetPassword from "./ResetPassword";
+import Upload from "./Upload";
 
 export default function ApnaNotes(){
     function AuthenticatedRoute({children}){
@@ -27,6 +30,8 @@ export default function ApnaNotes(){
                         <Route path='/' element={<Login />}></Route>
                         <Route path='/login' element={<Login />}></Route>
                         <Route path='/register' element={<Register />}></Route>
+                        <Route path='/verify' element={<Verification />}></Route>
+                        <Route path='/resetPassword' element={<ResetPassword/>}></Route>
                         <Route path='/home' element={
                             <AuthenticatedRoute>
                                 <Home />
@@ -36,6 +41,12 @@ export default function ApnaNotes(){
                         <Route path={`/profile/:username`} element={
                             <AuthenticatedRoute>
                                 <Profile />
+                            </AuthenticatedRoute>
+                            }>
+                        </Route>
+                        <Route path={`/:user/upload`} element={
+                            <AuthenticatedRoute>
+                                <Upload />
                             </AuthenticatedRoute>
                             }>
                         </Route>

@@ -1,0 +1,220 @@
+* {
+    color:#5cdb95;
+}
+
+label, input, button{
+    margin:10px;
+    padding:5px;
+    
+}
+
+header button:hover{
+    background: #041579;
+}
+
+body{
+    background-image: linear-gradient(rgba(0,8,51,0.9),rgba(0,8,51,0.9)),url(images/background.jpg);
+}  
+
+.vote{
+    width:30px;
+    padding:5px;
+}
+
+.grid{
+    padding: 100px;
+    padding-top : 20px;
+    display: grid;
+    place-items: center;
+  
+}
+
+.grid th{
+    padding: 5px;
+}
+
+.listed button{
+    border: none; 
+    outline: none; 
+    background-color: transparent; 
+    padding: 0;
+    font-weight: bold;
+}
+
+.nomakeup{
+    border: none; 
+    outline: none; 
+    background-color: transparent; 
+    padding: 0;
+    font-weight: bold;
+
+}
+
+.glow {
+    box-shadow: 0 0 10px #00ff00;
+  }
+
+.searchbar{
+    width: 75%;
+    max-width: 700px;
+    background: rgba(255, 255,255,0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 5px 20px;
+    backdrop-filter: blur(4px) saturate(100%);
+
+}
+.searchbar input{
+    background: transparent;
+    flex: auto;
+    border: 0;
+    outline:0;
+    padding: 12px 8px;
+    font-size: 18 px;
+    color:#cac7ff;
+}
+.searchbar button img{
+    width: 30px ;
+
+}
+.searchbar button{
+    border: 0;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    background: #58629B;
+    cursor: pointer;
+}
+
+.searchbar button:hover{
+    background: #041579;
+}
+
+#logo{
+    margin: 0px 20px 0px 5px;
+    font-size:large;
+    font-style: italic;
+    background: linear-gradient(rgb(255, 54, 54),rgb(243, 236, 36));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.pagination{
+    padding: 20px;
+}
+
+footer{
+    bottom: 40px;
+    position: absolute;
+    width:100%;
+    height:20px;
+}
+
+/* Profile.css */
+
+/* Main container for the profile page */
+.profile-container {
+    background-color: #000;
+    color: #fff;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
+  /* Container for user details */
+  .profile-details {
+    padding: 20px;
+  }
+  
+  /* Username text */
+  .profile-username {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  
+  /* Upload section */
+  .profile-upload {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  /* Label for upload */
+  .profile-upload-label {
+    font-size: 16px;
+    color: #fff;
+  }
+  
+  /* Upload button */
+  .profile-upload-button {
+    background-color: #58629B;
+    color: #fff;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* View section */
+  .profile-view-label {
+    font-size: 16px;
+    color: #fff;
+    margin-right: 10px;
+  }
+  
+  /* Label for view */
+  .profile-view-label {
+    font-size: 16px;
+    color: #fff;
+    margin-right: 10px;
+  }
+  
+  /* View button */
+  .profile-view-button {
+    background-color: #58629B;
+    color: #fff;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .leaderboard-container {
+    padding: 20px;
+  }
+  
+  .leaderboard-table {
+    margin-top:20px;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .leaderboard-table th,
+  .leaderboard-table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+  }
+  
+  .leaderboard-table th {
+    background-color: #f2f2f2;
+    color:rgba(0, 0, 0, 1);
+  }
+
+  .leaderboard-table td {
+    color:rgba(255, 255, 255, 1);
+  }
+  
+  .leaderboard-table tr.top-three {
+    background-color: #ffd700; 
+    font-weight: bold;
+  }
+  
+  
