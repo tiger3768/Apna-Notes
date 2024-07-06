@@ -1,4 +1,5 @@
-# Apna-Notes
+
+# Apna-Notes V2
 Hub for sharing notes and files
 
 ## Features
@@ -15,7 +16,7 @@ Hub for sharing notes and files
 3. Database: MySQL Docker container
 4. File Database: Firebase
 
-## Screenshots
+## Screenshots V1
 
 **1. Home Screen**
 
@@ -41,3 +42,24 @@ Hub for sharing notes and files
 
 ![alt text](./screenshots/view.png "View")
 
+## V2 Changes
+
+**1. Email Based Registration**
+
+![alt text](./screenshots/register.png "Register")
+
+**2. Reset Password**
+
+![alt text](./screenshots/resetpassword.png "Reset Password")
+
+**3. Topic Selection**
+
+![alt text](./screenshots/topicselection.png "Topic Selection")
+
+**4. Addition User Information**
+
+![alt text](./screenshots/profile.png "Profile")
+
+**5. Addition Post Information**
+
+![alt text](./screenshots/upload2.png "Upload")
