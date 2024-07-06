@@ -56,10 +56,10 @@ Hub for sharing notes and files
 
 ![alt text](./screenshots/topicselection.png "Topic Selection")
 
-**4. Addition User Information**
+**4. Additional User Information**
 
 ![alt text](./screenshots/profile.png "Profile")
 
-**5. Addition Post Information**
+**5. Additional Post Information**
 
 ![alt text](./screenshots/upload2.png "Upload")
